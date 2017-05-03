@@ -184,9 +184,8 @@ if (frameCount < 120){
 image(imgscroll, mouseX, mouseY, windowWidth/7,windowWidth/21)
 }
 
-function keyPressed(){
-  if(value === RETURN){
-      saveCanvas('TheBanzaArt', 'png');
+function mousePressed(){
+  saveCanvas('TheBanzaArt', 'png');
   }
 }
 
