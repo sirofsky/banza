@@ -55,7 +55,7 @@ function preload(){
     imgcreative1 = loadImage("Creative1.png");
     imgdates = loadImage("dates-01.png");
     imgsummary = loadImage("summary.png");
-    imgscroll = loadImage("Banzazoom-01.png");
+    imgscroll = loadImage("banzazoom-01.png");
     imgspace = loadImage("banzaspace-01.png");
     imgeyes = loadImage("spookyshadow.png");
 }
