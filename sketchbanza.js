@@ -367,6 +367,8 @@ function windowResized(){
     imgblood = createGraphics(windowWidth,windowHeight);
 }
 
-function mousePressed(){
+function keyPressed(){
+    if(value === RETURN){
   saveCanvas('TheBanzaArt', 'png');
+    }
   }
