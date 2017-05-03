@@ -368,7 +368,7 @@ function windowResized(){
 }
 
 function keyPressed(){
-    if(value === RETURN){
+    if(keyCode == 13){
   saveCanvas('TheBanzaArt', 'png');
     }
   }
