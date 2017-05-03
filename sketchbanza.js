@@ -185,7 +185,7 @@ image(imgscroll, mouseX, mouseY, windowWidth/7,windowWidth/21)
 }
 
 function keyPressed(){
-  if(value === ENTER){
+  if(value === RETURN){
       saveCanvas('TheBanzaArt', 'png');
   }
 }
