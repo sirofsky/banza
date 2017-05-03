@@ -367,8 +367,8 @@ function windowResized(){
     imgblood = createGraphics(windowWidth,windowHeight);
 }
 
-function keyPressed(){
-    if(keyCode == 13){
-  saveCanvas('TheBanzaArt', 'png');
-    }
-  }
+// function keyPressed(){
+//     if(keyCode == 13){
+//   saveCanvas('TheBanzaArt', 'png');
+//     }
+//   }
