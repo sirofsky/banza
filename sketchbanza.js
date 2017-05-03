@@ -184,9 +184,7 @@ if (frameCount < 120){
 image(imgscroll, mouseX, mouseY, windowWidth/7,windowWidth/21)
 }
 
-function mousePressed(){
-  saveCanvas('TheBanzaArt', 'png');
-  }
+
 }
 
 
@@ -371,3 +369,7 @@ function windowResized(){
     resizeCanvas(windowWidth, windowHeight);
     imgblood = createGraphics(windowWidth,windowHeight);
 }
+
+function mousePressed(){
+  saveCanvas('TheBanzaArt', 'png');
+  }
