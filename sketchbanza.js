@@ -184,7 +184,6 @@ if (frameCount < 120){
 image(imgscroll, mouseX, mouseY, windowWidth/7,windowWidth/21)
 }
 
-
 }
 
 
